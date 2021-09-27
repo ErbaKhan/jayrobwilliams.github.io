@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Larry Huang"
-  avatar           : #"profile.png"
+  avatar           : "myself.png"
   bio              : "Ph.D. candidate at UC Irvine"
   location         : "Irvine, CA"
   employer         :
