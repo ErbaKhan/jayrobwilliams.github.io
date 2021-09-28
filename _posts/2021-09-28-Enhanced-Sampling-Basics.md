@@ -25,13 +25,13 @@ Such method allows **random walk** in the whole phase space and lets the simulat
 
 ### Multicanonical algorithm and simulated tempering
 
-Consider N particles with mass $m_k$ with coordinate vector and momentum vector $\bold{q} ,\bold{p}$. The Hamiltonian can be expressed as:
+Consider N particles with mass $m_k$ with coordinate vector and momentum vector $\mathbf{q} ,\mathbf{p}$. The Hamiltonian can be expressed as:
 
-$$H(\bold{q},\bold{p})=K(\bold{p})+E(\bold{q})$$
+$$H(\mathbf{q},\mathbf{p})=K(\mathbf{p})+E(\mathbf{q})$$
 
 The kinetic part can be written as:
 
-$$K(\bold{p})=\sum_{k=1}^{N}\frac{\bold{p_k}^2}{2m_k}$$
+$$K(\mathbf{p})=\sum_{k=1}^{N}\frac{\mathbf{p_k}^2}{2m_k}$$
 
 In canonical ensemble at temperature T, each state in phase space can be expressed as $x \equiv (q,p)$. The weighted factor such state can be evaluated with a Boltzmann factor:
 
@@ -79,11 +79,11 @@ $$\Delta E_{mu}=E_{mu}(E';T_0)-E_{mu}(E;T_0)$$
 
 For molecular dynamics simulation, the simulation should be performed at specific temperature $T_0$. The equation of motion should be revised to:
 
-$$\dot{ \bold{p}}_k=-\frac{\partial E_{mu}(E;T_0)}{\partial \bold{q_k}}=-\frac{\partial E_{mu}(E;T_0)}{\partial E}\bold{f_k}$$
+$$\dot{ \mathbf{p}}_k=-\frac{\partial E_{mu}(E;T_0)}{\partial \mathbf{q_k}}=-\frac{\partial E_{mu}(E;T_0)}{\partial E}\mathbf{f_k}$$
 
 As we are performing simulation in an energy fixed ensemble, the expansion work and other work which would cause system energy change can be omitted. The above EOM can be further written as:
 
-$$\dot{\bold{p}}_k = \frac{T_0}{T(E)}\bold{f_k}$$
+$$\dot{\mathbf{p}}_k = \frac{T_0}{T(E)}\mathbf{f_k}$$
 
 The weight factor is determined by short trail simulations iteratively. The initial set up of the parameters should pick a high initial temperature $T_0$, while the initial trail energy and weight factor can be set as Boltzmann style (normal simulation style):
 
