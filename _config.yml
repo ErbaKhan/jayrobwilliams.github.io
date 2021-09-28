@@ -11,7 +11,7 @@ title                    : "Larry Huang"
 title_separator          : "-"
 name                     : &name "Larry Huang"
 description              : &description "Ph.D. candidate in UC Irvine"
-url                      : https://larryhuanguci.github.io/mywebsite.com/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://larryhuanguci.github.io/mywebsite.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "LarryHuangUCI/mywebsite.com"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -89,7 +89,7 @@ author:
   employer         :
   pubmed           :
   orcid            : #"http://orcid.org/0000-0001-9259-3883"
-  googlescholar    : #"https://scholar.google.com/citations?user=fiaPSmgAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F5ahIT-lX5Jkxly49mPv0-UwM70rCKxqhSnAThwyePAoCsNF2xzfop5hTy4ptN_lhwfHZrjgjA4aRu0tcgHNtGQ8Z47LQ&user=q9f1xrsAAAAJ"
   email            : "zhenh7@uci.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -99,7 +99,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ErbaKhan"
+  github           : "LarryHuangUCI"
   gitlab           : #"jayrobwilliams"
   google_plus      :
   keybase          :
