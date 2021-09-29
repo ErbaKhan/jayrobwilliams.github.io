@@ -7,8 +7,8 @@ toc: true
 tags:
   - Enhanced Sampling
 ---
-
-
+This is an elementary note for enhanced sampling including the theories of multicanonical ensemble simulation and simulated tempering.
+<!--more-->
 # Generalized Ensemble Sampling
 
 ## Background
